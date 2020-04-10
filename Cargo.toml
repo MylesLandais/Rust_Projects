@@ -9,3 +9,4 @@ edition = "2018"
 [dependencies]
 clap = "2.33.0"
 pulldown-cmark = "0.7.0"
+maud = "0.20.0"
