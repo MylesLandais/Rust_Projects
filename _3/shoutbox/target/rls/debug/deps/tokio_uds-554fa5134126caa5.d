@@ -1,0 +1,13 @@
+/home/alexei/Workspace/rust/Rust_Projects/_3/shoutbox/target/rls/debug/deps/tokio_uds-554fa5134126caa5.rmeta: /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.6/src/lib.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.6/src/datagram.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.6/src/frame.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.6/src/incoming.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.6/src/listener.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.6/src/recv_dgram.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.6/src/send_dgram.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.6/src/stream.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.6/src/ucred.rs
+
+/home/alexei/Workspace/rust/Rust_Projects/_3/shoutbox/target/rls/debug/deps/tokio_uds-554fa5134126caa5.d: /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.6/src/lib.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.6/src/datagram.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.6/src/frame.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.6/src/incoming.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.6/src/listener.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.6/src/recv_dgram.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.6/src/send_dgram.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.6/src/stream.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.6/src/ucred.rs
+
+/home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.6/src/lib.rs:
+/home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.6/src/datagram.rs:
+/home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.6/src/frame.rs:
+/home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.6/src/incoming.rs:
+/home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.6/src/listener.rs:
+/home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.6/src/recv_dgram.rs:
+/home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.6/src/send_dgram.rs:
+/home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.6/src/stream.rs:
+/home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.6/src/ucred.rs:
