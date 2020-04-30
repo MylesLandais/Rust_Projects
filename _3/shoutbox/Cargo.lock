@@ -322,6 +322,7 @@ version = "0.1.0"
 dependencies = [
  "futures",
  "tokio",
+ "tokio-channel",
 ]
 
 [[package]]
@@ -361,6 +362,15 @@ dependencies = [
  "tokio-timer",
  "tokio-udp",
  "tokio-uds",
+]
+
+[[package]]
+name = "tokio-channel"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "530d0fb87416dd531600f7cccc438bb35c5b91883065c9e6dca7cdecee991cfa"
+dependencies = [
+ "futures",
 ]
 
 [[package]]

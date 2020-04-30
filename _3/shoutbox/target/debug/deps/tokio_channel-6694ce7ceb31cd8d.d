@@ -1,0 +1,11 @@
+/home/alexei/Workspace/rust/Rust_Projects/_3/shoutbox/target/debug/deps/tokio_channel-6694ce7ceb31cd8d.rmeta: /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-channel-0.1.0/src/lib.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-channel-0.1.0/src/mpsc/mod.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-channel-0.1.0/src/mpsc/queue.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-channel-0.1.0/src/oneshot.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-channel-0.1.0/src/lock.rs
+
+/home/alexei/Workspace/rust/Rust_Projects/_3/shoutbox/target/debug/deps/libtokio_channel-6694ce7ceb31cd8d.rlib: /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-channel-0.1.0/src/lib.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-channel-0.1.0/src/mpsc/mod.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-channel-0.1.0/src/mpsc/queue.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-channel-0.1.0/src/oneshot.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-channel-0.1.0/src/lock.rs
+
+/home/alexei/Workspace/rust/Rust_Projects/_3/shoutbox/target/debug/deps/tokio_channel-6694ce7ceb31cd8d.d: /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-channel-0.1.0/src/lib.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-channel-0.1.0/src/mpsc/mod.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-channel-0.1.0/src/mpsc/queue.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-channel-0.1.0/src/oneshot.rs /home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-channel-0.1.0/src/lock.rs
+
+/home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-channel-0.1.0/src/lib.rs:
+/home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-channel-0.1.0/src/mpsc/mod.rs:
+/home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-channel-0.1.0/src/mpsc/queue.rs:
+/home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-channel-0.1.0/src/oneshot.rs:
+/home/alexei/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-channel-0.1.0/src/lock.rs:

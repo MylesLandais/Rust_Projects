@@ -1,0 +1,66 @@
+use futures::future;
+use tokio::prelude::*;
+use tokio_channel::mpsc;
+use std::fmt::Debug;
+
+pub enum Request<M>{
+    Put(M),
+}
+
+pub struct ShoutBox<M>{
+    store:Vec<M>,
+    ch_r: mpsc::Receiver<Request<M>>,
+}
+
+impl<M> ShoutBox<M>{
+    pub fn new()-> (Self,mpsc::Sender<Request<M>>){
+        let (ch_s,ch_r) = mpsc::channel(10);
+        (
+            ShoutBox{store: Vec::new(), ch_r},
+            ch_s
+
+        )
+    }
+}
+
+impl<M: Debug> Future for ShoutBox<M>{
+    type Item = ();
+    type Error = ();
+    fn poll(&mut self)->Result<Async<Self::Item>, Self::Error>{
+        loop{
+            let rq = match{self.ch_r.poll()?}{
+                Async::NotReady =>return Ok(Async::NotReady),
+                Async::Ready(Some(v))=>v,
+                Async::Ready(None)=>return Ok(Async::Ready(())),
+            };
+            match rq{
+                Request::Put(m)=>{
+                    println!("You got mail {:?}",m); 
+                }
+            }
+        }
+    }
+}
+
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use futures::future::lazy;
+
+    #[test] 
+    fn it_works() {
+        let f = lazy(||{
+            let (f,ch_s) = ShoutBox::new();
+            tokio::spawn(f);
+            tokio::spawn(
+                ch_s.send(Request::Put(3))
+                        .map(|_| ())
+                        .map_err(|e|println!("{:?}", e)),
+            );
+            Ok(())
+
+        });
+        tokio::run(f);
+    }
+}
